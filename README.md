@@ -1,8 +1,38 @@
-# React + Vite
+# Movie List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React application that displays a list of movies fetched from an API and allows users to add movies to a favorites list. The application uses Redux for state management and Material UI for styling.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Redux
+- Material UI (MUI)
+- Axios
+- Vite
+
+## Installation
+
+1. Install dependencies:
+   ```bash
+   git clone https://github.com/yourusername/movielist-app.git
+   cd movielist-app
+   
+2. Setup Redux
+   ```bash
+   npm install @reduxjs/toolkit
+   npm install react-redux
+   
+3. Install React-router-dom
+   ```bash
+   npm i react-router-dom
+   
+4. Install Axios
+   ```bash
+   npm i axios
+   
+5. Install Material UI
+   ```bash
+   npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+***
+After completing all the installations, run `npm run dev` to start the development server.
