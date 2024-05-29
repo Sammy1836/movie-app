@@ -14,8 +14,7 @@ This is a responsive React application that displays a list of movies fetched fr
 
 1. Install dependencies:
    ```bash
-   git clone https://github.com/yourusername/movielist-app.git
-   cd movielist-app
+   npm install
    
 2. Setup Redux
    ```bash
